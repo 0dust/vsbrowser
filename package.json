@@ -10,14 +10,18 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vsbrowser.helloWorld"
+		"onCommand:vsbrowser.open"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vsbrowser.helloWorld",
-				"title": "Hello World"
+				"command": "vsbrowser.open",
+				"title": "Open vsbrowser"
+			}
+			{
+				"command": "vsbrowser.close",
+				"title": "Close vsbrowser"
 			}
 		]
 	},
